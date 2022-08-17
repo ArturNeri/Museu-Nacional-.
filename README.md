@@ -1,5 +1,5 @@
 <h1 align="center">
-  🖩<br>Museu Nacional
+  <br>Museu Nacional
 </h1>
 
 <h4 align="center">
