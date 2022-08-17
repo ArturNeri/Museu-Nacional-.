@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Museu Nacional</title>
+    <meta charset="utf-8">
+    <!--Normalize CSS-->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!--Estilo customizado-->
+    <style>/* Estrutura do site
+        ----------------------- */
+        body {
+            background: #f4f2ec url(img/fundo.png) repeat-x;
+            font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+        }
+        
+        #container {
+            width: 1080px;
+            margin: 0 auto;
+        }
+        
+        a:link, a:active, a:visited {
+            color: #af670a;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color: #227115;
+        }
+        
+        
+        /*LOGO
+        -------------------*/
+        #logo h1{
+            float: left;
+        }
+        #logo a {
+            width: 248px;
+            height: 21px;
+            text-indent: -99999px;
+            display: block;
+            background: url(img/logo.png) no-repeat;
+        }
+        
+        /*INICIO NAVEGAÇÂo
+        -------------------*/
+        header{
+            padding: 15px 0;
+            height: 55px;
+        }
+        
+        nav ul{
+            list-style: none;
+            margin: 20px;
+            float: right;
+        }
+        
+        nav ul li{
+            float: left;
+        }
+        
+        nav ul li a:link {
+            display: block;
+            margin-right: 25px;
+            padding-bottom: 3px;
+            text-transform: uppercase;
+        }
+        
+        nav ul li a:hover {
+            border-bottom: 1px solid #535858;
+        }
+        
+        
+        /* Principal 
+        ---------------------------*/
+        #conteudo {
+            width: 710px;
+            float: left;
+            margin-bottom: 20px;
+            
+        }
+        
+        aside{
+            width: 350px;
+            float: right;
+            background: #ebe7db;
+            padding-bottom: 30px;
+            margin-bottom: 20px;
+        }
+        
+        section#visita {
+            background: cdc8b1;
+            padding: 10px 27px 27px 27px;
+            margin-top: 10px;
+        }
+        
+        section#galeria {
+            padding: 0 27px 0 27px;
+        }
+        
+        section#galeria a {
+            display: block;
+            background: url(img/fundo-foto.png);
+            float: left; 
+            padding: 15px 15px 18px 15px;
+            margin: 10px 0 0 20px;
+        }
+        
+        section#galeria img {
+            margin-left: 2px;
+            margin-top: 3px;
+        }
+        
+        article#video {
+            float: left;
+            width: 310px;
+            margin-left: 25px;
+        }
+        
+        article#mapa {
+            float: left;
+            width: 310px;
+            margin-left: 37px;
+        }
+        
+        article#exposicoes {
+            float: left;
+            width: 310px;
+            margin: 15px 0 0 25px;
+        }
+        
+        article#historia {
+            float: left;
+            width: 310px;
+            margin: 15px 0 0 37px;
+        }
+        
+        h3 {
+            color: #227115;
+            font-size: 1.0em;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+        
+        h4 {
+            color: #86521a;
+            text-transform: uppercase;
+            padding-bottom: 3px;
+            margin-bottom: 0px;
+        }
+        
+        /* formularios 
+        ---------------------------*/
+        footer {
+            padding: 20px 0 30px 0;
+            text-align: center;
+            background: url(img/fundo-rodape.png) no-repeat center top;
+            margin-top: 20px;
+        }
+        
+        footer>p a {
+            padding: 2px 10px;
+        }
+        
+        
+        
+        
+        /* formularios 
+        ---------------------------*/
+        input {
+            height: 20px;
+            width: 80px;
+            background: #fff;
+            border: none;
+            font-size: 1em;
+        }
+        
+        input.campo {
+            border: 1px solid #ada484;
+        }
+        
+        input.botao {
+            background: #9b9271;
+            color: white;
+            width: 100%;
+            height: 40px;
+            font-size: 1.2em;
+        }
+        
+        fieldset {
+            border: none;
+        }
+        
+        legend {
+            display: none;
+        }</style>
+   
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  
+
+
+</head>
+<body>
+    
+    
+    <div id="container"><!--Inicio container-->
+        
+        <header><!--Inicio header-->
+            <div id="logo">
+                <h1><a href="">Museu Nacional</a></h1>
+
+            </div>
+
+        
+            <nav><!--inicio nav-->
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Fotos</a></li>
+                    <li><a href="">Contato</a></li>
+                    
+                </ul>
+
+            </nav><!--fim nav-->
+            
+        </header><!--fim header-->
+
+        <div id="principal"><!--Inicio principal-->
+           
+            <div id="conteudo"><!--Inicio conteudo-->
+
+                <section id="capa">
+                    <img src="img/museu.png">
+                </section>
+
+                <section id="postagem">
+                    
+                    <article id="video">
+                        <h3> Video: Conheça O Museu Nacional</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    </article>
+
+                    <article id="mapa">
+                        <h3> Mapa: Encontre O Museu Nacional</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.206311665319!2d-43.228717585034445!3d-22.90575998501238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1655941298023!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </article>
+
+                    <article id="exposicoes">
+                        <h3>Apredizagem</h3>
+                        <ul>
+                            <li>
+                                <a href="">Cursos Teoricos e Praticos</a>
+                            </li>
+                            
+
+                        
+                    </article>
+                    <article id="historia">
+                        <h3>200 anos de história</h3>
+                        <p>
+                            Numa ponta que avançava sobre o mar, posteriormente conhecida como ponta do calabouço, entre as praias de Piaçaba e Santa Luzia, no centro Histórico do Rio de Janeiro,os portugueses construíram em 1603 a Fortaleza de Santiago, origem do conjunto arquitetônico que hj abriga o museu Histórico Nacional.
+                        </p>
+                        <a href=""><strong>Leia mais</strong></a>
+                    </article>
+
+                </section>
+
+            </div><!--Fim conteudo-->
+    
+            <aside><!--Inicio aside-->
+
+                <section id="depoimento">
+                    <img src="img/depoimento.png">
+                </section>  
+
+                <section id="visita"> <!--Inicio seção visita-->
+                    <h4>Faça uma visita</h4>
+                    <form>
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+                            
+                            <label for="data">data</label>
+                            <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+                        
+                            <label for="qtd">Qtd Pessoas</label>
+                            <input class="campo" style="width: 30px;" type="text" id="qtd"  value="1" >
+
+                        </fieldset>
+                        <input class="botao" type="submit" value="Verificar disponibilidade">
+                    </form>
+
+                </section><!--fim seção visita-->
+
+                <section id="galeria"> <!--inicio seção Galeria de fotos-->
+                    <h4>Galeria de fotos</h4>
+                    <a href="">
+                        <img src="img/imagem1.jpg">
+                    </a>
+
+                    <a href="">
+                        <img src="img/imagem2.jpg">
+                    </a>
+
+                    <a href="">
+                        <img src="img/imagem3.jpg">
+                    </a>
+
+                    <a href="">
+                        <img src="img/imagem4.jpg">
+                    </a>
+
+                </section><!--fim seção Galeria de fotos-->
+
+            </aside><!--Fim aside-->
+            <footer style="clear: both;">
+                <p>
+                    <a href="">Home</a>
+                    <a href="">Esposições</a>
+                    <a href="">Pesquisa</a>
+                    <a href="">Acervo</a>
+                    <a href="">vídeos</a>
+                    <a href="">fotos</a>
+                    <a href="">contato</a>
+                </p>
+                <p>
+                    2019 <a href="">Museu Nacional</a> - todos os direitos reservados.
+                </p>
+            </footer>
+        </div><!--Fim principal-->
+
+    </div:><!--Fim container-->
+
+
+
+</body>
+</html>
